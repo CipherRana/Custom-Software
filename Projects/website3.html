@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>webpage-practice-for-3</title>
+    <style>
+        body{
+            background-image: url("beach.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;      
+        }
+        .designing{
+    
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            text-align: center;
+          
+           
+        }
+        h1{
+            color: green;
+        }
+        .wd{
+            width: 3.75rem;
+        }
+        .btn{
+            background-color: green;
+            border-radius: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="designing">
+        <h1>Travel reservation Form</h1>
+        <h4>* denotes mandatory</h4>
+        <p>Full Name*</p>
+        <input type="text" placeholder="Enter full name">
+        <p>email address*</p>
+        <input type="email" placeholder="Enter email address">
+        <p>Select Tour Package*</p>
+        <input type="text">
+        <p>Arrival Date*</p>
+        <input type="date" placeholder="mm/dd/yyyy">
+        <p>Number of Persons*</p>
+        <input class="wd" type="number" placeholder="number">
+        <p>What would you want to avail?*</p>
+        <input type="checkbox" name="avail" value="boarding"> Boarding <br>
+        <input type="checkbox" name="avail" value="food"> Food <br>
+        <input type="checkbox" name="avail" value="sightseeing"> Sightseeing <br>
+        <p>Discount coupon code</p>
+        <input type="text" placeholder="Coupon code">
+        <p>Terms and Conditions*</p>
+        <input type="radio" name="avail" value="agree"> agree
+        <input type="radio" name="avail" value="disagree"> disagree
+        <br><br>
+        <button class="btn">Complete reservation</button>
+
+
+        </form>
+    </div>
+    
+</body>
