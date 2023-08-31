@@ -1,0 +1,35 @@
+.styling{
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+hr{
+    width: 20rem;
+   height: 2px;
+   color: #7bb642;
+   background-color: #7bb642;
+}
+h1{
+    font-size: 2.5rem;
+    size: 20px;
+}
+.inputer{
+    width: 17rem;
+    height: 2.5rem;
+    border-radius: 1rem;
+    background-color:#eeeeee ;
+}
+button{
+    background-color: #7bb642;
+    width: 7rem;
+    height: 2.5rem;
+    border-radius: 1rem;
+}
+button:hover{
+    background-color: green;
+    width: 7rem;
+    height: 2.5rem;
+    border-radius: 1rem;
+}
