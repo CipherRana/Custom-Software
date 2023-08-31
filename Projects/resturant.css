@@ -2,7 +2,6 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 .hero-image {
     background-image: url("girl1.jpg");
     height: 500px;
@@ -85,7 +84,6 @@ button:hover{
         color: #39588e ;
         font-size: 60px;
     }
-
     .box:hover{
         width: 260px;
         padding-top: 70px;
@@ -101,10 +99,8 @@ button:hover{
         cursor: crosshair;
     }
     .box:hover .changecolor {
-        color: white; /* Color to change icon to on hover */
+        color: white; 
        }
-
-
     p{
         color: #878787;
         font-size: large;
@@ -178,6 +174,7 @@ button:hover{
     }
     .div4p{
         padding-left: 100px;
+        color: #878787;
     }
     .formdesign{
         margin-left: 100px;
@@ -190,7 +187,7 @@ button:hover{
     }
     .divbutton{
         display: flex;
-        justify-content: center;
+        justify-content: right;
     }
     .button2{
     margin: 2rem;
@@ -213,4 +210,46 @@ button:hover{
     border: 0;
     background-color: #39588e;
     border-radius: 2rem;
+    }
+    .formdesign1{
+        width: 82%;
+        margin-left: 100px;
+        margin-bottom: 20px;
+        padding: 20px;
+        font-size: 20px;
+        border-left: 0;
+        border-right: 0;
+        border-top: 0;
+    }
+     .main{
+        display: flex;
+    } 
+    .div5{
+        color: white;
+        background-color: #39588e;
+        display: flex;
+        justify-content: center;
+        padding: 80px;
+    }
+    .image3icon{
+        margin:10px;
+        padding: 5px;
+        font-size: 20px;
+        transition: font-size 0.4s;
+        padding: 10px;
+        color: #2b2b2b;
+        background-color: white;
+        opacity: 1;
+        border-radius: 50%;
+    }
+    .image3icon:hover{
+        margin:10px;
+        padding: 5px;
+        font-size: 25px;
+        padding: 10px;
+        background-color: black;
+        color: white;
+        opacity: 1;
+        border-radius: 50%;
+        cursor: pointer;
     }
